@@ -1,0 +1,573 @@
+2021-02-16 21:47:08.978 +02:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Microsoft.Extensions.Logging.ILogger' for the parameter 'logger' of method 'Configure' on type 'PrimesNumber.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Microsoft.Extensions.Logging.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-16 21:47:31.466 +02:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Microsoft.Extensions.Logging.ILogger' for the parameter 'logger' of method 'Configure' on type 'PrimesNumber.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Microsoft.Extensions.Logging.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-16 21:50:43.690 +02:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Microsoft.Extensions.Logging.ILogger' for the parameter 'logger' of method 'Configure' on type 'PrimesNumber.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Microsoft.Extensions.Logging.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-16 21:51:55.074 +02:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Microsoft.Extensions.Logging.ILogger' for the parameter 'logger' of method 'Configure' on type 'PrimesNumber.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Microsoft.Extensions.Logging.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-16 21:55:24.853 +02:00 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Microsoft.Extensions.Logging.ILogger' for the parameter 'logger' of method 'Configure' on type 'PrimesNumber.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Microsoft.Extensions.Logging.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-02-16 22:01:25.632 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-16 22:01:25.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-16 22:01:25.666 +02:00 [INF] Hosting environment: Development
+2021-02-16 22:01:25.668 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-16 22:01:26.594 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-16 22:01:26.652 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-16 22:01:26.681 +02:00 [INF] Name Program: PrimesNumber 
+ Author: Halych Ivan
+2021-02-16 22:01:26.683 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-16 22:01:26.690 +02:00 [INF] Request finished in 98.4003ms 200 
+2021-02-16 22:01:32.075 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=10&to=50  
+2021-02-16 22:01:32.077 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-16 22:01:32.085 +02:00 [INF] From=10 To=50 : 11 13 17 19 23 29 31 37 41 43 47
+2021-02-16 22:01:32.088 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-16 22:01:32.090 +02:00 [INF] Request finished in 15.1386ms 200 
+2021-02-16 22:01:38.529 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-16 22:01:38.532 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 22:01:38.536 +02:00 [INF] Number: 5 Prime: True
+2021-02-16 22:01:38.538 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 22:01:38.540 +02:00 [INF] Request finished in 12.0163ms 200 
+2021-02-16 22:01:42.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/8  
+2021-02-16 22:01:42.221 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 22:01:42.224 +02:00 [INF] Number: 8 Prime: False
+2021-02-16 22:01:42.226 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-16 22:01:42.231 +02:00 [INF] Request finished in 13.5823ms 404 
+2021-02-16 22:02:21.473 +02:00 [INF] Application is shutting down...
+2021-02-17 01:33:57.169 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-17 01:33:57.251 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-17 01:33:57.253 +02:00 [INF] Hosting environment: Development
+2021-02-17 01:33:57.256 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-17 01:33:58.856 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 01:33:58.989 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 01:33:59.046 +02:00 [INF] Name Program: PrimesNumber 
+ Author: Halych Ivan
+2021-02-17 01:33:59.051 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 01:33:59.062 +02:00 [INF] Request finished in 214.4806ms 200 
+2021-02-17 01:36:06.014 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 01:36:06.045 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 01:36:06.053 +02:00 [INF] Name Program: PrimesNumber 
+ Author: Halych Ivan
+2021-02-17 01:36:06.055 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 01:36:06.060 +02:00 [INF] Request finished in 59.646ms 200 
+2021-02-17 01:36:30.650 +02:00 [INF] Application is shutting down...
+2021-02-17 16:29:20.850 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-17 16:29:20.997 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-17 16:29:21.003 +02:00 [INF] Hosting environment: Development
+2021-02-17 16:29:21.006 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-17 16:29:23.900 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 16:29:24.066 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 16:29:24.125 +02:00 [INF] Name Program: PrimesNumber 
+ Author: Halych Ivan
+2021-02-17 16:29:24.135 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 16:29:24.154 +02:00 [INF] Request finished in 266.6513ms 200 
+2021-02-17 16:29:27.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2021-02-17 16:29:27.223 +02:00 [INF] Request finished in 7.086ms 404 
+2021-02-17 16:29:45.458 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 16:29:45.484 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 16:29:45.498 +02:00 [INF] Name Program: PrimesNumber 
+ Author: Halych Ivan
+2021-02-17 16:29:45.502 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 16:29:45.515 +02:00 [INF] Request finished in 60.8005ms 200 
+2021-02-17 16:30:14.710 +02:00 [INF] Application is shutting down...
+2021-02-17 23:17:28.958 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-17 23:17:29.023 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-17 23:17:29.026 +02:00 [INF] Hosting environment: Development
+2021-02-17 23:17:29.029 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-17 23:17:32.219 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:17:32.324 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:17:32.348 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:17:32.350 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:17:32.353 +02:00 [INF] Request finished in 135.3914ms 200 
+2021-02-17 23:17:32.761 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2021-02-17 23:17:32.764 +02:00 [INF] Request finished in 2.7014ms 404 
+2021-02-17 23:17:55.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:17:55.738 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:17:55.742 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:17:55.746 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:17:55.749 +02:00 [INF] Request finished in 14.4263ms 200 
+2021-02-17 23:18:17.648 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:18:17.650 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:18:17.652 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:18:17.656 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:18:17.660 +02:00 [INF] Request finished in 12.3419ms 200 
+2021-02-17 23:18:25.152 +02:00 [INF] Application is shutting down...
+2021-02-17 23:18:44.350 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-17 23:18:44.453 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-17 23:18:44.456 +02:00 [INF] Hosting environment: Development
+2021-02-17 23:18:44.458 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-17 23:18:45.692 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:18:45.804 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:18:45.835 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:18:45.837 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:18:45.844 +02:00 [INF] Request finished in 160.2457ms 200 
+2021-02-17 23:18:57.431 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:18:57.439 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:18:57.449 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:18:57.453 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:18:57.459 +02:00 [INF] Request finished in 29.1856ms 200 
+2021-02-17 23:19:10.834 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:19:10.841 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:19:10.847 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:19:10.851 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:19:10.854 +02:00 [INF] Request finished in 20.5463ms 200 
+2021-02-17 23:19:56.566 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:19:56.568 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:19:56.570 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:19:56.575 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:19:56.577 +02:00 [INF] Request finished in 11.3103ms 200 
+2021-02-17 23:20:13.923 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-17 23:20:13.927 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-17 23:20:13.930 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-17 23:20:13.932 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-17 23:20:13.935 +02:00 [INF] Request finished in 12.2418ms 200 
+2021-02-17 23:20:31.496 +02:00 [INF] Application is shutting down...
+2021-02-18 00:32:32.490 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 00:32:32.519 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 00:32:32.520 +02:00 [INF] Hosting environment: Development
+2021-02-18 00:32:32.521 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 00:32:33.525 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:32:33.603 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:32:33.636 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:32:33.640 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:32:33.644 +02:00 [INF] Request finished in 126.2978ms 200 
+2021-02-18 00:34:50.574 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:34:50.597 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:34:50.603 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:34:50.613 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:34:50.624 +02:00 [INF] Request finished in 59.8851ms 200 
+2021-02-18 00:34:50.741 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:34:50.753 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:34:50.769 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:34:50.771 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:34:50.775 +02:00 [INF] Request finished in 34.0499ms 200 
+2021-02-18 00:34:50.778 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:34:50.780 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:34:50.783 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:34:50.785 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:34:50.788 +02:00 [INF] Request finished in 9.5643ms 404 
+2021-02-18 00:34:50.792 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:34:50.794 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.808 +02:00 [ERR] Invalid argument
+2021-02-18 00:34:50.811 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.813 +02:00 [INF] Request finished in 21.0344ms 400 
+2021-02-18 00:34:50.816 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:34:50.818 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.825 +02:00 [ERR] Invalid argument
+2021-02-18 00:34:50.828 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.832 +02:00 [INF] Request finished in 16.3337ms 400 
+2021-02-18 00:34:50.836 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:34:50.843 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.847 +02:00 [ERR] Invalid argument
+2021-02-18 00:34:50.850 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:34:50.856 +02:00 [INF] Request finished in 19.7145ms 400 
+2021-02-18 00:36:38.535 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:36:38.544 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:36:38.548 +02:00 [ERR] Invalid argument
+2021-02-18 00:36:38.551 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:36:38.556 +02:00 [INF] Request finished in 20.4017ms 400 
+2021-02-18 00:36:40.855 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:36:40.858 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:36:40.862 +02:00 [ERR] Invalid argument
+2021-02-18 00:36:40.863 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:36:40.865 +02:00 [INF] Request finished in 9.9851ms 400 
+2021-02-18 00:36:45.023 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/4  
+2021-02-18 00:36:45.026 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:36:45.029 +02:00 [INF] Number: 4 Prime: False
+2021-02-18 00:36:45.030 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:36:45.035 +02:00 [INF] Request finished in 12.0904ms 404 
+2021-02-18 00:36:48.873 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:36:48.876 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:36:48.879 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:36:48.885 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:36:48.887 +02:00 [INF] Request finished in 14.2988ms 200 
+2021-02-18 00:36:53.033 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:36:53.036 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:36:53.039 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:36:53.041 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:36:53.044 +02:00 [INF] Request finished in 10.2506ms 200 
+2021-02-18 00:37:04.345 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/test?to=abc  
+2021-02-18 00:37:04.350 +02:00 [INF] Request finished in 4.5513ms 404 
+2021-02-18 00:37:15.172 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/test?to=abc  
+2021-02-18 00:37:15.174 +02:00 [INF] Request finished in 2.0589ms 404 
+2021-02-18 00:37:19.166 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?to=abc  
+2021-02-18 00:37:19.170 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:37:19.173 +02:00 [ERR] Invalid argument
+2021-02-18 00:37:19.175 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:37:19.178 +02:00 [INF] Request finished in 12.3023ms 400 
+2021-02-18 00:38:27.065 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:38:27.067 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:38:27.068 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:38:27.070 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:38:27.071 +02:00 [INF] Request finished in 6.9351ms 200 
+2021-02-18 00:38:27.122 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:38:27.123 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:38:27.124 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:38:27.126 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:38:27.128 +02:00 [INF] Request finished in 6.7936ms 200 
+2021-02-18 00:38:27.131 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:38:27.132 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:38:27.133 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:38:27.134 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:38:27.136 +02:00 [INF] Request finished in 4.8541ms 404 
+2021-02-18 00:38:27.137 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:38:27.139 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.141 +02:00 [ERR] Invalid argument
+2021-02-18 00:38:27.143 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.144 +02:00 [INF] Request finished in 6.9359ms 400 
+2021-02-18 00:38:27.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:38:27.150 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.152 +02:00 [ERR] Invalid argument
+2021-02-18 00:38:27.153 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.155 +02:00 [INF] Request finished in 6.4154ms 400 
+2021-02-18 00:38:27.156 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:38:27.158 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.160 +02:00 [ERR] Invalid argument
+2021-02-18 00:38:27.163 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:38:27.165 +02:00 [INF] Request finished in 8.596ms 400 
+2021-02-18 00:38:38.374 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:38:38.376 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:38:38.380 +02:00 [ERR] Invalid argument
+2021-02-18 00:38:38.382 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:38:38.386 +02:00 [INF] Request finished in 15.1336ms 400 
+2021-02-18 00:39:02.968 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:39:02.970 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:39:33.122 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 00:39:33.150 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 00:39:33.153 +02:00 [INF] Hosting environment: Development
+2021-02-18 00:39:33.155 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 00:39:33.214 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:39:33.262 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:39:41.671 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:39:41.684 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:40:08.119 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 00:40:08.196 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 00:40:08.199 +02:00 [INF] Hosting environment: Development
+2021-02-18 00:40:08.201 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 00:40:08.273 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:40:08.382 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:40:08.397 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 00:40:08.399 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:40:08.401 +02:00 [INF] Request finished in 136.0394ms 200 
+2021-02-18 00:40:08.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:40:08.934 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:40:08.937 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:40:08.939 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:40:08.940 +02:00 [INF] Request finished in 8.2223ms 200 
+2021-02-18 00:40:15.794 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:40:15.799 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:40:15.809 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:40:15.817 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:40:15.824 +02:00 [INF] Request finished in 30.153ms 200 
+2021-02-18 00:40:15.944 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:40:15.949 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:40:15.969 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:40:15.979 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:40:15.982 +02:00 [INF] Request finished in 38.0758ms 200 
+2021-02-18 00:40:15.990 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:40:15.993 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:40:15.996 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:40:15.997 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:40:16.001 +02:00 [INF] Request finished in 11.6948ms 404 
+2021-02-18 00:40:16.007 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:40:16.009 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.013 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 00:40:16.021 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.055 +02:00 [INF] Request finished in 47.8327ms 200 
+2021-02-18 00:40:16.063 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:40:16.065 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.069 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 00:40:16.072 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.076 +02:00 [INF] Request finished in 13.2549ms 200 
+2021-02-18 00:40:16.096 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:40:16.102 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.108 +02:00 [ERR] Invalid argument
+2021-02-18 00:40:16.114 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:40:16.118 +02:00 [INF] Request finished in 22.0275ms 400 
+2021-02-18 00:41:19.706 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 00:41:19.728 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 00:41:19.730 +02:00 [INF] Hosting environment: Development
+2021-02-18 00:41:19.731 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 00:41:20.442 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:41:20.482 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:41:20.493 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:41:20.496 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:41:20.498 +02:00 [INF] Request finished in 59.3212ms 200 
+2021-02-18 00:41:26.627 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:41:26.633 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:41:26.638 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:41:26.645 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:41:26.649 +02:00 [INF] Request finished in 22.9939ms 200 
+2021-02-18 00:41:26.756 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:41:26.762 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:26.769 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:41:26.771 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:26.774 +02:00 [INF] Request finished in 18.0319ms 200 
+2021-02-18 00:41:26.780 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:41:26.785 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:26.788 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:41:26.791 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:26.794 +02:00 [INF] Request finished in 14.0579ms 404 
+2021-02-18 00:41:26.801 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:41:26.804 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.818 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 00:41:26.820 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.826 +02:00 [INF] Request finished in 24.9624ms 200 
+2021-02-18 00:41:26.832 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:41:26.836 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.840 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 00:41:26.843 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.855 +02:00 [INF] Request finished in 22.6161ms 200 
+2021-02-18 00:41:26.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:41:26.865 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.869 +02:00 [ERR] Invalid argument
+2021-02-18 00:41:26.987 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:26.996 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PrimesNumber.Startup.<>c__DisplayClass1_0.<<Configure>b__3>d.MoveNext() in C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-18 00:41:27.386 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-18 00:41:27.399 +02:00 [ERR] Connection id "0HM6JIKIGSC6K", Request id "0HM6JIKIGSC6K:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PrimesNumber.Startup.<>c__DisplayClass1_0.<<Configure>b__3>d.MoveNext() in C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-18 00:41:27.440 +02:00 [INF] Request finished in 578.6326ms 200 
+2021-02-18 00:41:51.233 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:41:51.235 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:41:51.238 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:41:51.240 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:41:51.242 +02:00 [INF] Request finished in 9.1424ms 200 
+2021-02-18 00:41:51.263 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:41:51.265 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:51.270 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:41:51.271 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:51.274 +02:00 [INF] Request finished in 11.6655ms 200 
+2021-02-18 00:41:51.278 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:41:51.288 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:51.298 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:41:51.309 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:41:51.319 +02:00 [INF] Request finished in 40.8466ms 404 
+2021-02-18 00:41:51.321 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:41:51.324 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.325 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 00:41:51.326 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.328 +02:00 [INF] Request finished in 7.7556ms 200 
+2021-02-18 00:41:51.336 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:41:51.341 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.345 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 00:41:51.353 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.357 +02:00 [INF] Request finished in 21.7137ms 200 
+2021-02-18 00:41:51.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:41:51.370 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.374 +02:00 [ERR] Invalid argument
+2021-02-18 00:41:51.405 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:41:51.406 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PrimesNumber.Startup.<>c__DisplayClass1_0.<<Configure>b__3>d.MoveNext() in C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-02-18 00:41:51.418 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2021-02-18 00:41:51.420 +02:00 [ERR] Connection id "0HM6JIKIGSC6L", Request id "0HM6JIKIGSC6L:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at PrimesNumber.Startup.<>c__DisplayClass1_0.<<Configure>b__3>d.MoveNext() in C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber\Startup.cs:line 64
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2021-02-18 00:41:51.434 +02:00 [INF] Request finished in 70.4175ms 200 
+2021-02-18 00:43:18.492 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 00:43:18.579 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 00:43:18.582 +02:00 [INF] Hosting environment: Development
+2021-02-18 00:43:18.584 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 00:43:19.489 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:43:19.571 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:43:19.598 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:43:19.601 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:43:19.606 +02:00 [INF] Request finished in 120.8275ms 200 
+2021-02-18 00:43:25.522 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 00:43:25.542 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 00:43:25.547 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 00:43:25.560 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 00:43:25.564 +02:00 [INF] Request finished in 43.6331ms 200 
+2021-02-18 00:43:25.648 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 00:43:25.654 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:43:25.660 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 00:43:25.662 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:43:25.669 +02:00 [INF] Request finished in 20.9822ms 200 
+2021-02-18 00:43:25.673 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 00:43:25.675 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:43:25.677 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 00:43:25.681 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 00:43:25.684 +02:00 [INF] Request finished in 10.8335ms 404 
+2021-02-18 00:43:25.686 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 00:43:25.688 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.700 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 00:43:25.702 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.704 +02:00 [INF] Request finished in 18.7413ms 200 
+2021-02-18 00:43:25.716 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 00:43:25.718 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.723 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 00:43:25.725 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.731 +02:00 [INF] Request finished in 14.6084ms 200 
+2021-02-18 00:43:25.733 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 00:43:25.736 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.738 +02:00 [ERR] Invalid argument
+2021-02-18 00:43:25.741 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 00:43:25.746 +02:00 [INF] Request finished in 12.6546ms 400 
+2021-02-18 17:26:19.215 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 17:26:19.504 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 17:26:19.506 +02:00 [INF] Hosting environment: Development
+2021-02-18 17:26:19.507 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 17:26:21.229 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 17:26:21.336 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 17:26:21.369 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 17:26:21.372 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 17:26:21.377 +02:00 [INF] Request finished in 154.208ms 200 
+2021-02-18 17:26:22.469 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2021-02-18 17:26:22.472 +02:00 [INF] Request finished in 3.3457ms 404 
+2021-02-18 17:30:07.879 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 17:30:07.900 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 17:30:07.908 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 17:30:07.918 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 17:30:07.926 +02:00 [INF] Request finished in 52.2845ms 200 
+2021-02-18 17:30:07.986 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 17:30:07.997 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 17:30:08.011 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 17:30:08.013 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 17:30:08.021 +02:00 [INF] Request finished in 35.0169ms 200 
+2021-02-18 17:30:08.024 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 17:30:08.027 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 17:30:08.030 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 17:30:08.037 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 17:30:08.040 +02:00 [INF] Request finished in 15.3233ms 404 
+2021-02-18 17:30:08.043 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 17:30:08.045 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.067 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 17:30:08.069 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.071 +02:00 [INF] Request finished in 28.6587ms 200 
+2021-02-18 17:30:08.084 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 17:30:08.086 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.090 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 17:30:08.094 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.098 +02:00 [INF] Request finished in 14.9128ms 200 
+2021-02-18 17:30:08.101 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 17:30:08.104 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.107 +02:00 [ERR] Invalid argument
+2021-02-18 17:30:08.113 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 17:30:08.116 +02:00 [INF] Request finished in 15.1358ms 400 
+2021-02-18 20:37:36.816 +02:00 [INF] Now listening on: http://localhost:5000
+2021-02-18 20:37:36.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-18 20:37:36.870 +02:00 [INF] Hosting environment: Development
+2021-02-18 20:37:36.872 +02:00 [INF] Content root path: C:\Users\Ivan\source\repos\HomeWork9\PrimesNumber
+2021-02-18 20:37:39.460 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 20:37:39.628 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 20:37:39.730 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 20:37:39.845 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 20:37:39.854 +02:00 [INF] Request finished in 397.243ms 200 
+2021-02-18 20:37:43.239 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2021-02-18 20:37:43.243 +02:00 [INF] Request finished in 4.0087ms 404 
+2021-02-18 20:37:54.724 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?to=5  
+2021-02-18 20:37:54.735 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 20:37:54.747 +02:00 [ERR] Invalid argument
+2021-02-18 20:37:54.750 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 20:37:54.752 +02:00 [INF] Request finished in 28.0511ms 400 
+2021-02-18 20:38:58.242 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-18 20:38:58.245 +02:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-02-18 20:38:58.248 +02:00 [INF] Name Program: PrimesNumber | Author: Halych Ivan
+2021-02-18 20:38:58.255 +02:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-02-18 20:38:58.258 +02:00 [INF] Request finished in 16.5865ms 200 
+2021-02-18 20:38:58.291 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/5  
+2021-02-18 20:38:58.295 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 20:38:58.299 +02:00 [INF] Number: 5 Prime: True
+2021-02-18 20:38:58.301 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 20:38:58.303 +02:00 [INF] Request finished in 11.9171ms 200 
+2021-02-18 20:38:58.305 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes/6  
+2021-02-18 20:38:58.306 +02:00 [INF] Executing endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 20:38:58.308 +02:00 [INF] Number: 6 Prime: False
+2021-02-18 20:38:58.309 +02:00 [INF] Executed endpoint '/primes/{number:int} HTTP: GET'
+2021-02-18 20:38:58.313 +02:00 [INF] Request finished in 7.6257ms 404 
+2021-02-18 20:38:58.315 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=0&to=5  
+2021-02-18 20:38:58.316 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.321 +02:00 [INF] From=0 To=5 : 2 3 5
+2021-02-18 20:38:58.323 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.327 +02:00 [INF] Request finished in 12.4383ms 200 
+2021-02-18 20:38:58.331 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?from=-5&to=1  
+2021-02-18 20:38:58.332 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.334 +02:00 [INF] From=-5 To=1 : 
+2021-02-18 20:38:58.335 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.337 +02:00 [INF] Request finished in 6.6052ms 200 
+2021-02-18 20:38:58.339 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/primes?&to=absd  
+2021-02-18 20:38:58.343 +02:00 [INF] Executing endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.345 +02:00 [ERR] Invalid argument
+2021-02-18 20:38:58.347 +02:00 [INF] Executed endpoint '/primes HTTP: GET'
+2021-02-18 20:38:58.349 +02:00 [INF] Request finished in 10.3559ms 400 
+2021-02-18 20:39:18.279 +02:00 [INF] Application is shutting down...
